@@ -1,12 +1,12 @@
 return {
-	bot_api_key = "TOKNE", --TOKEN
+	bot_api_key = "361206575:AAGNHeO99A9dAEbHB0zn_hH9MluN4frXRbs", --TOKEN
 	base_url = "https://api.telegram.org/bot*"..bot_api_key,
 	cmd = '^[/!#]',
 	db = 0,
-	superadmins = {56693692},
+	superadmins = {326824638},
 	log = {
-		chat = 56693692,
-		admin = 56693692,
+		chat = 326824638,
+		admin = 326824638,
 		stats = nil
 	},
 	bot_settings = {
@@ -19,7 +19,7 @@ return {
 		admin_mode = false,
 		debug_connections = false,
 	},
-	channel = '@black_ch', --channel username with the '@'
+	channel = '@emptychannel', --channel username with the '@'
 	plugins = {
 		'core.lua', 
 	},
